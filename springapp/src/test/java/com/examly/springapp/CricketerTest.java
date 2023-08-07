@@ -39,7 +39,7 @@ public class CricketerTest {
         cricketersList.add(new Cricketer("Steve Smith", 31, "Australia"));
         cricketersList.add(new Cricketer("Kane Williamson", 30, "New Zealand"));
 
-        Collections.sort(cricketersList, new CricketerAgeComparator());
+        Collections.sort(cricketersList);
 
         assertEquals("Kane Williamson", cricketersList.get(0).getName(), "Youngest cricketer should be Kane Williamson");
         assertEquals("Steve Smith", cricketersList.get(1).getName(), "Second youngest cricketer should be Steve Smith");
