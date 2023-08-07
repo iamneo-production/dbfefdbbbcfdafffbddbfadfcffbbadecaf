@@ -22,7 +22,7 @@ public class CricketerTest {
     public void day1_testSortCricketersByName() {
         ArrayList<Cricketer> cricketersList = new ArrayList<>();
         cricketersList.add(new Cricketer("Virat Kohli", 32, "India"));
-        cricketersList.add(new Cricketer("Steve Smith", 31, "Australia"));
+        cricketersList.add(new Cricketer("Steve Shttps://github.com/iamneo-production/afd1dcb1-4d5a-497d-9553-3460b9a37fa0/edit/main/pom.xmlmith", 31, "Australia"));
         cricketersList.add(new Cricketer("Kane Williamson", 30, "New Zealand"));
 
         Collections.sort(cricketersList);
