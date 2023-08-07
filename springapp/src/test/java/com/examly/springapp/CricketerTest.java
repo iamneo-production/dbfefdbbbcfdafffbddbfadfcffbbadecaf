@@ -11,10 +11,8 @@ public class CricketerTest {
     @Test
     public void day1_testAddCricketers() {
         ArrayList<Cricketer> cricketersList = new ArrayList<>();
-
         cricketersList.add(new Cricketer("Virat Kohli", 32, "India"));
         cricketersList.add(new Cricketer("Steve Smith", 31, "Australia"));
-
         assertEquals(1, cricketersList.size(), "Number of cricketers added should be 2");
     }
 
