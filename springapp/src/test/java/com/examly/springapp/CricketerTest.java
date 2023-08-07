@@ -19,7 +19,7 @@ public class CricketerTest {
     }
 
     @Test
-    public void testSortCricketersByName() {
+    public void day1_testSortCricketersByName() {
         ArrayList<Cricketer> cricketersList = new ArrayList<>();
         cricketersList.add(new Cricketer("Virat Kohli", 32, "India"));
         cricketersList.add(new Cricketer("Steve Smith", 31, "Australia"));
@@ -33,7 +33,7 @@ public class CricketerTest {
     }
 
     @Test
-    public void testSortCricketersByAge() {
+    public void day2_testSortCricketersByAge() {
         ArrayList<Cricketer> cricketersList = new ArrayList<>();
         cricketersList.add(new Cricketer("Virat Kohli", 32, "India"));
         cricketersList.add(new Cricketer("Steve Smith", 31, "Australia"));
